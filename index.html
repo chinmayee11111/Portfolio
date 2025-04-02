@@ -1,43 +1,113 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinmayee Rana - Portfolio</title>
+    <title>Chinmayee Rana | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        #home {
+            background: #3498db;
+            color: white;
+        }
+        #home img {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        #about {
+            background: #1abc9c;
+            color: white;
+        }
+        #projects {
+            background: #e67e22;
+            color: white;
+        }
+        #contact {
+            background: #9b59b6;
+            color: white;
+        }
+        footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        
-        <img src="profile pic.jpg" alt="Chinmayee Rana" class="profile-pic">
-        <h1>Chinmayee Rana</h1>
-        <p>Computer Science Engineering Student | Siksha 'O' Anusandhan University</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    
+    <section id="home">
+        <img src="profile pic.jpg" alt="Chinmayee Rana">
+        <h1>Chinmayee Rana</h1>
+        <p>Computer Science Engineering Student</p>
+    </section>
     
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I am Chinmayee Rana, a passionate Computer Science Engineering student at Siksha 'O' Anusandhan University. I have a keen interest in web development, programming, and software engineering.</p>
-    </section>
-    
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>University:</strong> Siksha 'O' Anusandhan University</p>
-        <p><strong>SGPA:</strong> 8.3,8.5,8.1,8.7,7.9,8.1,8.4</p>
+        <p>I'm a CSE student at Siksha 'O' Anusandhan University, passionate about web development and software engineering.</p>
     </section>
     
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li>Amazon Clone (HTML, CSS, JavaScript)</li>
-            <li>Spotify Clone (HTML, CSS, JavaScript)</li>
-            <li>Java Swing & AWT Quiz Application</li>
+            <li><strong>Amazon Clone</strong> - Built using HTML, CSS, and JavaScript</li>
+            <li><strong>Spotify Clone</strong> - Developed a music player UI with HTML, CSS, and JavaScript</li>
+            <li><strong>Quiz Application</strong> - Java Swing & AWT-based interactive quiz</li>
         </ul>
     </section>
     
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: chinmayeerana52@gmail.com</p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/chinmayeerana</a></p>
-        <p>GitHub: <a href="#">github.com/chinmayeerana</a></p>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/chinmayee</a></p>
+        <p>GitHub: <a href="#">github.com/chinmayee</a></p>
     </section>
+    
+    <footer>
+        <p>&copy; 2025 Chinmayee Rana. All rights reserved.</p>
+    </footer>
 </body>
 </html>
